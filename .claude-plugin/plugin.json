@@ -1,0 +1,10 @@
+{
+  "name": "c4-from-code",
+  "displayName": "C4 from code",
+  "description": "Generate a navigable C4 architecture diagram set (L1 context, L2 containers, L3 components) from a codebase treated as ground truth: reproducible standard-library Python to SVG, drill-down links, a single-file viewer, and a source-verification pass against fabricated edges.",
+  "version": "1.0.0",
+  "author": { "name": "Klaus Runnel", "email": "klaus.runnel@cyber.ee" },
+  "homepage": "https://github.com/klauseduard/c4-from-code",
+  "repository": "https://github.com/klauseduard/c4-from-code",
+  "keywords": ["c4", "architecture", "diagrams", "svg", "documentation"]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "klaus-tools",
+  "description": "Klaus Runnel's Claude Code plugins",
+  "owner": { "name": "Klaus Runnel", "email": "klaus.runnel@cyber.ee" },
+  "plugins": [
+    {
+      "name": "c4-from-code",
+      "source": ".",
+      "description": "Navigable C4 architecture diagrams generated from code, with a verification pass"
+    }
+  ]
+}
