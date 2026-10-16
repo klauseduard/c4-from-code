@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>c4-from-code: C4 architecture diagrams from a codebase</title>
+<style>
+  body { max-width: 42rem; margin: 3rem auto; padding: 0 1.25rem; font: 1.05rem/1.55 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #1f2937; }
+  h1 { font-size: 1.8rem; margin-bottom: 0.4rem; }
+  p.lead { color: #4b5563; margin-top: 0; }
+  a { color: #2f5fd1; }
+  ul { padding-left: 1.2rem; }
+  code { font: 0.92em "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace; background: #f3f4f6; padding: 0.1em 0.3em; border-radius: 3px; }
+</style>
+</head>
+<body>
+<h1>c4-from-code</h1>
+<p class="lead">A Claude Code skill that draws a C4 architecture diagram set, system context, containers and components, from a codebase treated as ground truth, with a verification pass against the source.</p>
+<ul>
+  <li><a href="examples/classroomio/index.html">The worked example: ClassroomIO</a>, a navigable set with drill-down from the system to its containers and components.</li>
+  <li><a href="https://github.com/klauseduard/c4-from-code#readme">How to install and use the skill</a> (the repository's README).</li>
+  <li><a href="https://github.com/klauseduard/c4-from-code/blob/main/examples/classroomio/README.md">The example's report</a>: what was verified against the code and where each label comes from.</li>
+</ul>
+<p>Install in Claude Code: <code>/plugin marketplace add klauseduard/c4-from-code</code>, then <code>/plugin install c4-from-code@klaus-tools</code>.</p>
+</body>
+</html>
